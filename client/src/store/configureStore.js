@@ -7,17 +7,18 @@ import hardSet from "redux-persist/lib/stateReconciler/hardSet";
 import { composeWithDevTools } from "redux-devtools-extension";
 
 const middlewares = [thunk];
- 
+
 if (process.env.NODE_ENV === `development`) {
   const { logger } = require(`redux-logger`);
- 
+
   middlewares.push(logger);
 }
 
 const persistConfig = {
   key: "root",
   storage,
-  stateReconciler: hardSet
+  stateReconciler: hardSet,
+  whitelist: ["user"]
 };
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
