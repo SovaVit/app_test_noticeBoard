@@ -1,0 +1,21 @@
+.post {
+  margin: 3% 3% 3% 3%;
+  font-size: 3vh;
+}
+.author {
+  display: block;
+  margin: 5px;
+  justify-content: flex-start;
+
+  width: 150px;
+}
+@media screen and (max-width: 900px) {
+  .author {
+    display: none;
+  }
+}
+.post_text {
+  padding: 0 7px 0 15px;
+  text-align: justify;
+  border-left: 1px solid rgb(0, 0, 0);
+}

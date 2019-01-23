@@ -1,0 +1,41 @@
+.Post {
+  box-shadow: 0px 20px 10px 0px gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+  background-color: rgb(221, 217, 217);
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
+}
+.Post > p {
+  text-align: right;
+  margin: 10px;
+  font-size: xx-small;
+}
+.Post > h3 {
+  text-align: left;
+  margin: 0 20px 0 20px;
+}
+._link {
+  align-content: center;
+  text-align: center;
+  cursor: pointer;
+  font-size: small;
+}
+@media screen and (max-width: 900px) {
+  .Post {
+    font-size: smaller;
+    width: 100%;
+  }
+  .Post > h3 {
+    font-size: smaller;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Post {
+    font-size: smaller;
+    width: 100%;
+  }
+  .Post > h3 {
+    font-size: smaller;
+  }
+}

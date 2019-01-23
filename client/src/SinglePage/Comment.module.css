@@ -1,0 +1,20 @@
+.article {
+  margin: auto;
+  font-size: 3vh;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+@media screen and (max-width: 900px) {
+  .article {
+    grid-template-columns: 100%;
+  }
+}
+.author {
+  margin: 8px;
+  border-right: 2px solid lightslategrey;
+}
+
+.author > h6 {
+  margin: 5px;
+  font-size: 14px;
+}

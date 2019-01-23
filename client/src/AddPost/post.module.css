@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 20% 0% 20%;
+}
+@media screen and (max-width: 900px) {
+  .form {
+    margin: 0%;
+    width: -webkit-fill-available;
+    align-items: left;
+  }
+
+}
+.container {
+  height: 100%;
+  width: auto;
+  position: inherit;
+  top: 69px;
+  left: 170px;
+  text-align: center;
+  background-color: inherit;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+@media screen and (max-width: 900px) {
+  .container {
+    position: absolute;
+    text-align: left;
+    top: 376px;
+    left: 0;
+    width: 100%;
+  }
+}
