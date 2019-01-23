@@ -16,7 +16,7 @@ const NavBar = props => {
         </li>
         <li className={styles.list__item}>
           <NavLink to="/">
-            <span>Dashboard</span>
+            <span>Notices</span>
           </NavLink>
         </li>
         <li className={styles.list__item}>
