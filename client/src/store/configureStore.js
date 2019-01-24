@@ -17,7 +17,6 @@ if (process.env.NODE_ENV === `development`) {
 const persistConfig = {
   key: "root",
   storage,
-  stateReconciler: hardSet,
   whitelist: ["user"]
 };
 const persistedReducer = persistReducer(persistConfig, rootReducer);

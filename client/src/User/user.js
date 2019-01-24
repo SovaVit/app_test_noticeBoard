@@ -13,7 +13,7 @@ export class User extends React.Component {
           X
         </button>
         <p>Hello !</p>
-        <p>Please enter your username and password!</p>
+        <p>Please enter your e-mail and password!</p>
 
         <Form
           onSubmit={this.props.handleSubmit}
