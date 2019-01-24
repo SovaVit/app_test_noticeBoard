@@ -1,6 +1,6 @@
 import setAuthorizationToken from "./setAuthorizationToken";
 
-const BASE_URL = "http://localhost:8080/api/";
+const BASE_URL = "api/";
 
 const _request = async (url, fetchData) => {
   const res = await fetch(`${BASE_URL}${url}`, fetchData);
