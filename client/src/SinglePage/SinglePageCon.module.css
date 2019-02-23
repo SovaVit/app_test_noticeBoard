@@ -6,12 +6,23 @@
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 0 4% 0 4%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    margin: 0 2% 0 2%;
+  }
+}
+
 .container > hr {
   color: black;
   border-width: initial;
   width: 97%;
 }
-.comments{
+.comments {
   display: inline-block;
   text-align: left;
 }

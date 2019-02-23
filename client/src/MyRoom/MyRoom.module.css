@@ -12,8 +12,9 @@
 }
 @media screen and (max-width: 1050px) {
   .container {
-    top: 345px;
+    top: 410px;
     left: 0;
+    padding: 0;
   }
 }
 .my_table {

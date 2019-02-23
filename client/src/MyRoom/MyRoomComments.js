@@ -55,7 +55,7 @@ MyRoomComments.propTypes = {
   userComments: PropTypes.shape({
     userComments: PropTypes.array.isRequired,
     isFetching: PropTypes.bool.isRequired,
-    error: PropTypes.string,
+   
   }),
   token: PropTypes.string.isRequired
 };

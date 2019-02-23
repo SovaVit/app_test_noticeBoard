@@ -19,7 +19,7 @@ const DashboardContainer = props => {
   const { page } = props;
   return (
     <div>
-      <h1 className="App">Notice board</h1>
+      <h1 className="App">Notice Board</h1>
       <SearchBar onSubmit={submitSearch} />
       <Dashboard
         data={posts}

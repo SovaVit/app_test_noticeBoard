@@ -59,7 +59,7 @@ MyRoomPosts.propTypes = {
   userPosts: PropTypes.shape({
     userPosts: PropTypes.array.isRequired,
     isFetching: PropTypes.bool.isRequired,
-    errors: PropTypes.string,
+    
   }),
   token: PropTypes.string.isRequired
 };

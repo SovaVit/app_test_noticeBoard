@@ -8,6 +8,9 @@
   .article {
     grid-template-columns: 100%;
   }
+  .text{
+    margin: 5px;
+  }
 }
 .author {
   margin: 8px;

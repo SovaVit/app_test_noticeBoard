@@ -9,14 +9,14 @@ const NavBar = props => {
     <nav className={styles.header}>
       <ul className={styles.list}>
         <li className={styles.list__item}>
-          <h4>
+        <h4>
             Hello {name}
             {"  "}{" "}
-          </h4>
+            </h4>
         </li>
         <li className={styles.list__item}>
           <NavLink to="/">
-            <span>Notices</span>
+            <span>Dashboard</span>
           </NavLink>
         </li>
         <li className={styles.list__item}>

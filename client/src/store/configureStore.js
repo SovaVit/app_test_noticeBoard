@@ -3,7 +3,6 @@ import { rootReducer } from "../reducers";
 import thunk from "redux-thunk";
 import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-import hardSet from "redux-persist/lib/stateReconciler/hardSet";
 import { composeWithDevTools } from "redux-devtools-extension";
 
 const middlewares = [thunk];

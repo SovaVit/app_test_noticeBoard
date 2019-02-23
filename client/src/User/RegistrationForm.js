@@ -10,7 +10,7 @@ const AddUserForm = props => {
       <button className={s.close} onClick={props.handleClose}>
         X
       </button>
-      <p>Please enter your details!</p>
+      <p className={s.text}>Please enter your details!</p>
       <Form
         onSubmit={props.handleSubmit}
         render={({

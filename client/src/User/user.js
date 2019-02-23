@@ -12,8 +12,8 @@ export class User extends React.Component {
         <button className={s.close} onClick={this.props.handleClose}>
           X
         </button>
-        <p>Hello !</p>
-        <p>Please enter your e-mail and password!</p>
+        <p className={s.text}>Hello !</p>
+        <p className={s.text}>Please enter your username and password!</p>
 
         <Form
           onSubmit={this.props.handleSubmit}

@@ -23,7 +23,7 @@ const Comment = props => {
         </h6>
       </div>
       <div>
-        <p>{description}</p>
+        <p className={CSS.text}>{description}</p>
       </div>
     </div>
   );

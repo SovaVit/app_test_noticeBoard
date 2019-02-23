@@ -12,14 +12,18 @@
   text-align: center;
   border-radius: 7px;
 }
-
+@media screen and (max-width: 1000px) {
+  .text {
+    margin: 20px 0 5px 0;
+  }
+}
 @media screen and (max-width: 1000px) {
   .modal {
     position: fixed;
     height: 90%;
     width: 90%;
     top: 2%;
-    left: 2%;
+    left: 5%;
   }
 }
 .close {
