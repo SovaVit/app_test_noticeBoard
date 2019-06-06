@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { RemoveUserPost } from "../utilities/Api";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
+import * as style from "./MyRoom.module.css";
 
 const UserPost = props => {
   const { id, title, receivedAt } = props.data;
@@ -13,14 +14,14 @@ const UserPost = props => {
 
   return (
     <tr>
-      <td>
+      <td className={style.my_table_link}>
         <Link to={`/${id}`}>{title}</Link>
       </td>
-      <td>{receivedAt}</td>
-      <td>
+      <td className={style.my_table_row}>{receivedAt}</td>
+      <td className={style.my_table_row}>
         <NavLink to={`/myroom/uppost/${id}`}>Update</NavLink>
       </td>
-      <td>
+      <td className={style.my_table_row}>
         <NavLink to="/myroom/post" onClick={handleRemove}>
           Remove
         </NavLink>

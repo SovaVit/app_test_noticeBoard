@@ -12,6 +12,13 @@
 }
 @media screen and (max-width: 1050px) {
   .container {
+    top: 387px;
+    left: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
     top: 410px;
     left: 0;
     padding: 0;
@@ -57,23 +64,29 @@
   }
 }
 @media screen and (max-width: 900px) {
+  .my_table_row {
+    display: none;
+  }
+  .my_table_link {
+    padding: 5px;
+  }
   .my_table {
     font-size: 0.8rem;
   }
   .my_table a {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .my_head th:nth-child(1) {
-    width: 75%;
+    width: 100%;
   }
   .my_head th:nth-child(2) {
-    width: 5%;
+    width: 0%;
   }
   .my_head th:nth-child(3) {
-    width: 10%;
+    width: 0%;
   }
   .my_head th:nth-child(4) {
-    width: 10%;
+    width: 0%;
   }
 }
 @media screen and (max-width: 450px) {
@@ -81,21 +94,18 @@
     font-size: 0.7rem;
   }
   .my_table a {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
-  .my_table td:nth-child(1) {
-    width: 95%;
-  }
-  .my_table td:nth-child(2) {
-    display: none;
-  }
-  .my_table td:nth-child(3) {
-    display: none;
-  }
-  .my_table td:nth-child(4) {
-    width: 5%;
+  .my_head th:nth-child(1) {
+    width: 100%;
   }
   .my_head th:nth-child(2) {
-    display: none;
+    width: 0%;
+  }
+  .my_head th:nth-child(3) {
+    width: 0%;
+  }
+  .my_head th:nth-child(4) {
+    width: 0%;
   }
 }
